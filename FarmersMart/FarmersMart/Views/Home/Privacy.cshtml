@@ -1,6 +1,66 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
-}
-<h1>@ViewData["Title"]</h1>
+﻿<div class="privacy-container">
+    <h1>Privacy Policy</h1>
+    <div class="accordion" id="privacyAccordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Information We Collect
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#privacyAccordion">
+                <div class="card-body">
+                    <p>We collect information from you when you register on our site or fill out a form. When registering or filling out a form, as appropriate, you may be asked to enter your name, email address, mailing address, phone number or other details to help you with your experience.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How We Use Your Information
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#privacyAccordion">
+                <div class="card-body">
+                    <p>We use the information we collect from you to personalize your experience and to improve our website. We may also use your information to contact you for market research or to provide you with marketing information.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Additional accordion sections for "Security" and "Terms of Use" -->
+    </div>
+    <h2>Contact Us</h2>
+    <p>If you have any questions about our privacy policy or terms of use, please contact us at contact@xyzwebsite.com or by mail at XYZ Website, 123 Main Street, Suite 200, Anytown, USA.</p>
+</div>
+<div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Security
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#privacyAccordion">
+                <div class="card-body">
+                    <p>We take precautions to protect your information. When you submit sensitive information via the website, your information is protected both online and offline.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Terms of Use
+                    </button>
+                </h2>
+            </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#privacyAccordion">
+        <div class="card-body">
+            <p>By using our website, you agree to our terms of use. Please review our terms of use carefully before using our website.</p>
+        </div>
+    </div>
+</div>
 
-<p>Use this page to detail your site's privacy policy.</p>
+

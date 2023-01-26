@@ -9,7 +9,6 @@ namespace FarmersMart.Controllers
     {
         private string _connectionString = "Server=localhost;Port=3306;Database=farmersmart;Uid=root;Pwd=welcome@123;";
         ProductDAL _productDAL;
-        Product product;
         public ProductController()
         {
             _productDAL = new ProductDAL(_connectionString);

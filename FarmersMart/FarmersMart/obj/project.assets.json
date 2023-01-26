@@ -9501,11 +9501,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\visualStudioProjects\\FarmersMart\\FarmersMart\\FarmersMart.csproj",
+      "projectUniqueName": "D:\\Project\\Dotnet\\FarmersMart\\FarmersMart\\FarmersMart\\FarmersMart.csproj",
       "projectName": "FarmersMart",
-      "projectPath": "D:\\visualStudioProjects\\FarmersMart\\FarmersMart\\FarmersMart.csproj",
+      "projectPath": "D:\\Project\\Dotnet\\FarmersMart\\FarmersMart\\FarmersMart\\FarmersMart.csproj",
       "packagesPath": "C:\\Users\\oshou\\.nuget\\packages\\",
-      "outputPath": "D:\\visualStudioProjects\\FarmersMart\\FarmersMart\\obj\\",
+      "outputPath": "D:\\Project\\Dotnet\\FarmersMart\\FarmersMart\\FarmersMart\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oshou\\AppData\\Roaming\\NuGet\\NuGet.Config",
